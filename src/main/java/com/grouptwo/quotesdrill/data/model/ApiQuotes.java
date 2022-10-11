@@ -14,7 +14,7 @@ import javax.persistence.*;
 public class ApiQuotes {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long apiQuoteId;
+	private long apiQuoteId;
 	private String quote;
 	private String Author;
 

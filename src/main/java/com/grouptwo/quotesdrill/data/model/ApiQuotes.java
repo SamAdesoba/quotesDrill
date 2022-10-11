@@ -15,7 +15,8 @@ public class ApiQuotes {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long apiQuoteId;
-	private String quote;
-	private String Author;
+	private String text;
+	private String author;
+	private String tag;
 
 }

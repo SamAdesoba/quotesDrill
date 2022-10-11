@@ -16,5 +16,6 @@ public class UserQuote {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String quote;
-    private String Author;
+    private String author;
+    private String tag;
 }

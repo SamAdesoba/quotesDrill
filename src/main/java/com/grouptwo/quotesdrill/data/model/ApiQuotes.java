@@ -9,7 +9,6 @@ import javax.persistence.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "Api Quotes")
 @Entity
 public class ApiQuotes {
 	@Id

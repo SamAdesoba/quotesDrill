@@ -4,10 +4,18 @@ import com.grouptwo.quotesdrill.dtos.requests.GetListQuoteRequest;
 import com.grouptwo.quotesdrill.dtos.requests.GetQuoteRequest;
 import com.grouptwo.quotesdrill.dtos.responses.GetListQuoteResponse;
 import com.grouptwo.quotesdrill.dtos.responses.GetQuoteResponse;
-
-public interface ApiQuotesService {
- GetQuoteResponse getQuote(GetQuoteRequest request);
+import org.springframework.stereotype.Service;
 
 
- GetListQuoteResponse getListQuote(GetListQuoteRequest request);
+@Service
+public class ApiQuotesServiceImpl implements ApiQuotesService{
+	@Override
+	public GetQuoteResponse getQuote(GetQuoteRequest request) {
+		return null;
+	}
+
+	@Override
+	public GetListQuoteResponse getListQuote(GetListQuoteRequest request) {
+		return null;
+	}
 }

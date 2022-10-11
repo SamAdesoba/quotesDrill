@@ -9,5 +9,5 @@ public interface ApiQuotesService {
  GetQuoteResponse getQuote(GetQuoteRequest request);
 
 
- GetListQuoteResponse getListQuote(GetListQuoteRequest request);
+ GetListQuoteResponse getTopic(GetListQuoteRequest request);
 }
